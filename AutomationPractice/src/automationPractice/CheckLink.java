@@ -18,6 +18,7 @@ public class CheckLink extends VerifyPageLinks
   public void CheckPageLinks() 
   {
 	  WebDriver driver = new FirefoxDriver();
+	  System.out.println("Execution Started:");
 	  driver.get("https:\\www.google.com.sg");
 	  List<WebElement> links = driver.findElements(By.tagName("a"));
 	  System.out.println("total links are "+links.size());
