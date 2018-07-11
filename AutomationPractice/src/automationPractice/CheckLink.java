@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import automationPractice.Reusables.VerifyPageLinks;
-
+//test
 public class CheckLink extends VerifyPageLinks
 {
   @Test (description= "to test the links in the page")
